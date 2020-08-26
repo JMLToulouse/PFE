@@ -2,11 +2,15 @@
 
 ## 1er fichier Notebook : Automatic diagnosis of the 12-lead ECG using a deep neural network.
 -----------
-  <img src="https://latex.codecogs.com/svg.latex? \begin{pmatrix}
-    [a_{(1,1)},b_{(1,1)},c_{(1,1)},d_{(1,1)},e_{(1,1)},f_{(1,1)},g_{(1,1)},h_{(1,1)},i_{(1,1)},j_{(1,1)},k_{(1,1)},l_{(1,1)}],      & \cdots & ,[a_{(1,4096)},b_{(1,4096)},c_{(1,4096)},d_{(1,4096)},e_{(1,4096)},f_{(1,4096)},g_{(1,4096)},h_{(1,4096)},i_{(1,4096)},j_{(1,4096)},k_{(1,4096)},l_{(1,4096)}]\\ 
-    \vdots & \vdots & \vdots \\ 
-    \vdots & \vdots & \vdots \\
-    [a_{(827,1)},b_{(827,1)},c_{(827,1)},d_{(827,1)},e_{(827,1)},f_{(827,1)},g_{(827,1)},h_{(827,1)},i_{(827,1)},j_{(827,1)},k_{(827,1)},l_{(827,1)}],      & \cdots & ,[a_{(827,4096)},b_{(827,4096)},c_{(827,4096)},d_{(827,4096)},e_{(827,4096)},f_{(827,4096)},g_{(827,4096)},h_{(827,4096)},i_{(827,4096)},j_{(827,4096)},k_{(827,4096)},l_{(827,4096)}]
-\end{pmatrix}  />
+
+
+#### Résumé:
+
+Ce notebook est une reprise en main d’un code déjà existant qu’on trouve sur le lien suivant : https://github.com/antonior92/automatic-ecg-diagnosis
+
+Le notebook contient deux grandes parties, la partie descriptive où je parle en français _contrairement à l’ancien article qui était publié en anglais_ du jeu de données utilisé, le réseau neurone appliqué, les méthodes qu’ils ont servies afin d’avoir une bonne annotation, ensuite il y a la partie informatique, codé sous python et qui permet de donner des prédictions et de savoir l’efficacité du model ou du réseau neurone utilisé.  
+
+Le réseau neurones utilisé, est un DNN qui reste un peu compliqué et qui contient plusieurs layers. Les entrées de ce réseau était du type (827,4096,12) où 827 représente le nombre de patients, 4096 représente le nombre de données reçu de l’ECG et 12 représente le nombre de signaux.
+Autrement dit, chaque patient nous fournis 12 signaux ECG avec une moyenne de 4096 données par signal. La matrice est de la forme suivante :
 
 
