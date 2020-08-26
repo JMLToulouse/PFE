@@ -11,5 +11,5 @@
 * Le réseau neurones utilisé, est un DNN qui reste un peu compliqué et qui contient plusieurs layers. Les entrées de ce réseau était du type (827,4096,12) où 827 représente le nombre de patients, 4096 représente le nombre de données reçu de l’ECG et 12 représente le nombre de signaux.
 Autrement dit, chaque patient nous fournis 12 signaux ECG avec une moyenne de 4096 données par signal. La matrice est de la forme suivante :
 
-![alt tag](https://github.com/Liamsi1597/PFE/issues/1#issue-686796982)
+![alt tag](https://user-images.githubusercontent.com/70271267/91366461-0f27c800-e804-11ea-8604-bfd63b073c13.gif)
 
