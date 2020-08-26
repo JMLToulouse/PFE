@@ -1,4 +1,4 @@
-# PFE
+# Projet Fin d'études - Ismail ZNIBER
 
 ## 1er fichier Notebook : Automatic diagnosis of the 12-lead ECG using a deep neural network.
 -----------
@@ -12,4 +12,8 @@
 Autrement dit, chaque patient nous fournis 12 signaux ECG avec une moyenne de 4096 données par signal. La matrice est de la forme suivante :
 
 ![alt tag](https://user-images.githubusercontent.com/70271267/91366796-01267700-e805-11ea-9597-ee3eb4401093.png)
+
+Tandis que les sorties sont du type (827,6) où 6 représente le nombre d’anomalies, ici on parle des maladies cardiaques (AF, RBBB, LBBB, 1dAvb, ST, SB), la matrice de sortie ne doit contenir que des 1 et des 0, 1 si le patient est malade et 0 dans le cas contraire. Cette matrice est de la forme :
+
+![alt tag](https://user-images.githubusercontent.com/70271267/91367697-6da27580-e807-11ea-9338-3d7b15a04fd8.png)
 
