@@ -2,7 +2,7 @@
 
 ## 1er fichier Notebook : Automatic diagnosis of the 12-lead ECG using a deep neural network.
 -----------
-  <img src="https://latex.codecogs.com/svg.latex?\begin{pmatrix}
+  <img src="https://latex.codecogs.com/svg.latex? \begin{pmatrix}
     [a_{(1,1)},b_{(1,1)},c_{(1,1)},d_{(1,1)},e_{(1,1)},f_{(1,1)},g_{(1,1)},h_{(1,1)},i_{(1,1)},j_{(1,1)},k_{(1,1)},l_{(1,1)}],      & \cdots & ,[a_{(1,4096)},b_{(1,4096)},c_{(1,4096)},d_{(1,4096)},e_{(1,4096)},f_{(1,4096)},g_{(1,4096)},h_{(1,4096)},i_{(1,4096)},j_{(1,4096)},k_{(1,4096)},l_{(1,4096)}]\\ 
     \vdots & \vdots & \vdots \\ 
     \vdots & \vdots & \vdots \\
