@@ -17,7 +17,7 @@ Tandis que les sorties sont du type (827,6) où 6 représente le nombre d’anom
 
 ![alt tag](https://user-images.githubusercontent.com/70271267/91367697-6da27580-e807-11ea-9338-3d7b15a04fd8.png)
 
-* Dans la partie code je suis passé de _argparse_ aux classes, car la bibliothèques argparse n'était pas fonctionnel sur jupyter Notebook (Voir partie code du notebook).
+* Dans la partie code je suis passé de _argparse_ aux classes, car la bibliothèques argparse n'était pas fonctionnelle sur jupyter Notebook (Voir partie code du notebook).
 * Les résultats obtenus avec ce DNN dépassent les prédictions des médecins et des étudiants avec un f1 score qui dépasse 80% et des indices de spécificité supérieurs à 99% ce qui rend cette étude intéressante pour le monde de la médecine.
 
 
@@ -30,6 +30,8 @@ Ce code a été testé sur Python 3 avec Tensorflow == 1.15.2 et Keras == 2.2.4.
 
 On a commencé par importer les bibliothèques nécessaires, ensuite on a codé le modèle qu’on va utiliser puis l’entrainer, après on a lancé les prédictions et on a fini par comparer les résultats avec les médecins et les étudiants.
 
+## 2ème fichier Notebook : 
+-----------
 
 
 
