@@ -26,6 +26,10 @@ Tandis que les sorties sont du type (827,6) où 6 représente le nombre d’anom
 
 Ce code a été testé sur Python 3 avec Tensorflow == 1.15.2 et Keras == 2.2.4. Il n'a pas été mis à jour pour fonctionner avec Tensorflow 2.0 et supérieur. Voir la partie Requirements dans le notebook.
 
+#### Scripts:
+
+On a commencé par importer les bibliothèques nécessaires, ensuite on a codé le modèle qu’on va utiliser puis l’entrainer, après on a lancé les prédictions et on a fini par comparer les résultats avec les médecins et les étudiants.
+
 
 
 
