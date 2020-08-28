@@ -41,11 +41,11 @@ Ethik fonctionne très bien et mène à des bonnes explications pour deux types 
 
 Mon travail se résume alors à :
 
-	* Pouvoir jouer avec les hypothèses et les analyses, et voir les conséquences de nouvelles hypothèses.
+* Pouvoir jouer avec les hypothèses et les analyses, et voir les conséquences de nouvelles hypothèses.
 	
-	* Avoir la possibilité d’interagir avec des modèles et des simulations qui rendent plus concrètes les idées abstraites présentées, et se faire ainsi une intuition de leur fonctionnement.
+* Avoir la possibilité d’interagir avec des modèles et des simulations qui rendent plus concrètes les idées abstraites présentées, et se faire ainsi une intuition de leur fonctionnement.
 	
-	* Permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
+* Permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
 	
 #### Package:
  
