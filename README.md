@@ -53,8 +53,13 @@ Vous pouvez trouvez toutes les informations nécessaires sur ce package ainsi qu
 
 ### Requirements et installation :
 
-Ce code a été testé sur Python 3.6 et on peut installer le package via la commande suivante :`
-	 * >>> pip install ethik *
+Ce code a été testé sur Python 3.6 
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ethik.
+
+```bash
+pip install ethik
+```
 	 
 
 
