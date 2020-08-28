@@ -22,6 +22,8 @@ Tandis que les sorties sont du type (827,6) où 6 représente le nombre d’anom
 
 
 
+
+
 #### Requirements:
 
 Ce code a été testé sur Python 3 avec Tensorflow == 1.15.2 et Keras == 2.2.4. Il n'a pas été mis à jour pour fonctionner avec Tensorflow 2.0 et supérieur. Voir la partie Requirements dans le notebook.
@@ -35,6 +37,9 @@ On a commencé par importer les bibliothèques nécessaires, ensuite on a codé 
 
 
 #### Resume:
+
+!!!! ATTENTION : Il faut ouvrir le notebook sur colab pour pouvoir visualiser les diagrammes !!!!
+
 Dans ce Notebook, J’ai essayé de comprendre le fonctionnement de la bibliothèque Ethik qui a pour but d'expliquer les règles de décision entraînées et pour s'assurer qu'elles sont équitables. Elle a été créée par des enseignants et des chercheurs de l’université Paul sabatier-Toulouse.
 
 Ethik fonctionne très bien et mène à des bonnes explications pour deux types d’entrées : les tableaux et les images. Cependant le jeu de données sur lequel je travaillais avait des signaux comme entrée et non pas des tableaux et des images. Mon travail était d’adapter Ethik et voir si on obtenait des résultats et des explications satisfaisantes si notre modèle avait des signaux comme entrée. Pour cela j’ai essayé dans un premier temps de passer d’un signal 3d à un signal 2d et d’appliquer le package sur ce nouveau signal, ensuite j’ai essayé de transformer le signal en une image, et finalement j’ai aussi essayé de projeter mon signal dans une base d’ondelettes.
