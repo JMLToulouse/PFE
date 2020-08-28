@@ -1,5 +1,19 @@
 # Projet Fin d'études - Ismail ZNIBER
 
+## Introduction générale :
+
+Les réseaux de neurones ont la capacité de traiter des problèmes divers et variés. Le résultat peut être une prédiction, une classification ou une analyse de données. Ils permettent de traiter des problèmes non structurés, c'est-à-dire des problèmes sur lesquels on ne dispose d'aucune information au préalable.
+On s’intéresse plus particulièrement aux réseaux de neurones pour l’analyse des données complexes qui permet à la fois de réduire efficacement la dimension des données et de prédire des relations plus complexes.
+Les réseaux de neurones pour l’analyse des données donnent de bons résultats car même dans des domaines très complexes, ils sont plus performants que les statistiques ou les arbres de décisions.
+
+Cependant les règles de décisions de réseaux de neurones sont généralement impossibles à interpréter directement et on peut les considérer comme une boite noire car on ne sait pas ce qui se passe réellement à l’intérieur de chaque couche de notre réseau contrairement à un programme informatique classique où si on connaît le code on est capable. De savoir ce qui se passe et de prévoir le résultat.
+Cette question est d’actualité et insiste beaucoup de chercheur et d’enseignant dans le domaine de la Datascience à trouver l'interpretabilité des règles de décisions pour l’analyse des donnée. C’est le cas de mon équipe encadrante (Jean-Michel Loubes, François Bachoc et Fabrice Gamboa) qui ont développé un algorithme d’interpretabilité nommé « Ethik » et qui permet de détecter l’influence des attributs sur le modèle pour pouvoir prendre une décision.
+
+Mon travail était alors dans un premier temps de reprendre en main le code de Riebero ainsi que reproduire et vérifier les résultats. Cette étape était nécessaire pour la deuxième partie de mon travail qui consistait à explorer l’utilisation de l’algorithme décrit avant sur un jeu de données qui a une structure pour lequel l’outil Ethik n’a pas été développé.
+
+
+
+
 ## 1er fichier Notebook : Automatic diagnosis of the 12-lead ECG using a deep neural network.
 -----------
 
