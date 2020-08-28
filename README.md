@@ -30,7 +30,7 @@ Ce code a été testé sur Python 3 avec Tensorflow == 1.15.2 et Keras == 2.2.4.
 
 On a commencé par importer les bibliothèques nécessaires, ensuite on a codé le modèle qu’on va utiliser puis l’entrainer, après on a lancé les prédictions et on a fini par comparer les résultats avec les médecins et les étudiants.
 
-## 2ème fichier Notebook : 
+## 2ème fichier Notebook : Application du package Ethik sur le jeu de données de Ribeiro
 -----------
 
 
