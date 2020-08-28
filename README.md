@@ -40,8 +40,11 @@ Dans ce Notebook, J’ai essayé de comprendre le fonctionnement de la biblioth�
 Ethik fonctionne très bien et mène à des bonnes explications pour deux types d’entrées : les tableaux et les images. Cependant le jeu de données sur lequel je travaillais avait des signaux comme entrée et non pas des tableaux et des images. Mon travail était d’adapter Ethik et voir si on obtenait des résultats et des explications satisfaisantes si notre modèle avait des signaux comme entrée. Pour cela j’ai essayé dans un premier temps de passer d’un signal 3d à un signal 2d et d’appliquer le package sur ce nouveau signal, ensuite j’ai essayé de transformer le signal en une image, et finalement j’ai aussi essayé de projeter mon signal dans une base d’ondelettes.
 
 Mon travail se résume alors à :
+
 	* Pouvoir jouer avec les hypothèses et les analyses, et voir les conséquences de nouvelles hypothèses.
+	
 	* Avoir la possibilité d’interagir avec des modèles et des simulations qui rendent plus concrètes les idées abstraites présentées, et se faire ainsi une intuition de leur fonctionnement.
+	
 	* permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
 
 
