@@ -47,11 +47,11 @@ Mon travail se résume alors à :
 	
 	* Permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
 	
-#### Package :
+#### Package:
  
 Vous pouvez trouvez toutes les informations nécessaires sur ce package ainsi que des exemeple en cliquant sur le lien suivant : https://github.com/XAI-ANITI/ethik
 
-### Requirements et installation :
+#### Requirements and installation:
 
 Ce code a été testé sur Python 3.6 
 
@@ -60,6 +60,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ethik.
 ```bash
 pip install ethik
 ```
+
+#### Contributing:
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 	 
 
 
