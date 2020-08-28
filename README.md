@@ -45,6 +45,16 @@ Mon travail se résume alors à :
 	
 	* Avoir la possibilité d’interagir avec des modèles et des simulations qui rendent plus concrètes les idées abstraites présentées, et se faire ainsi une intuition de leur fonctionnement.
 	
-	* permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
+	* Permettre de prendre connaissance du package, et de vérifier les affirmations des auteurs.
+	
+#### Package :
+ 
+Vous pouvez trouvez toutes les informations nécessaires sur ce package ainsi que des exemeple en cliquant sur le lien suivant : https://github.com/XAI-ANITI/ethik
+
+### Requirements et installation :
+
+Ce code a été testé sur Python 3.6 et on peut installer le package via la commande suivante :`
+	 * >>> pip install ethik
+	 
 
 
